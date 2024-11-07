@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.docteurControler">
+   <children>
+      <Button fx:id="id1" mnemonicParsing="false" onAction="#ajouter" prefHeight="41.0" prefWidth="400.0" text="ajouter">
+         <VBox.margin>
+            <Insets left="15.0" top="20.0" />
+         </VBox.margin>
+         <padding>
+            <Insets top="15.0" />
+         </padding></Button>
+      <Button fx:id="id2" mnemonicParsing="false" onAction="#modifier" prefHeight="38.0" prefWidth="390.0" text="modifier">
+         <VBox.margin>
+            <Insets left="15.0" top="15.0" />
+         </VBox.margin>
+         <padding>
+            <Insets top="15.0" />
+         </padding></Button>
+      <Button fx:id="id3" mnemonicParsing="false" onAction="#supprimer" prefHeight="40.0" prefWidth="412.0" text="supprimer">
+         <VBox.margin>
+            <Insets left="15.0" right="15.0" top="15.0" />
+         </VBox.margin>
+         <padding>
+            <Insets top="10.0" />
+         </padding></Button>
+      <Button mnemonicParsing="false" onAction="#afficher" prefHeight="42.0" prefWidth="411.0" text="afficher liste docteurs">
+         <VBox.margin>
+            <Insets left="20.0" right="10.0" top="20.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

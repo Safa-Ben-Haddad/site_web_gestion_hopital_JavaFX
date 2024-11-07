@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.gestionControler">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="docteur1" mnemonicParsing="false" onAction="#onButton" prefHeight="26.0" prefWidth="484.0" text="gestion docteur">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </VBox.margin>
+            </Button>
+         </children></VBox>
+      <Button layoutX="34.0" layoutY="68.0" mnemonicParsing="false" onAction="#gestionPatients" prefHeight="26.0" prefWidth="457.0" text="gestion patients" />
+      <Button layoutX="51.0" layoutY="140.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="414.0" text="gestion ordonnances" />
+      <Button layoutX="62.0" layoutY="200.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="392.0" text="gestion rendez vous" />
+   </children>
+</AnchorPane>

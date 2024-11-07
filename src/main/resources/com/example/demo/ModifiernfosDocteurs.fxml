@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.ModifierInfosDocteurControler">
+   <children>
+      <Label prefHeight="24.0" prefWidth="208.0" text="entrer le nouvel nom du docteur">
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+         <padding>
+            <Insets right="10.0" top="10.0" />
+         </padding></Label>
+      <TextField fx:id="nomDoct">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin>
+      </TextField>
+      <Label prefHeight="18.0" prefWidth="179.0" text="entrer le nouveau prénom">
+         <VBox.margin>
+            <Insets bottom="5.0" left="10.0" top="5.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="prenomDoct" prefHeight="17.0" prefWidth="600.0">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin></TextField>
+      <Label prefHeight="28.0" prefWidth="152.0" text="entrer la nouvelle spécialité">
+         <VBox.margin>
+            <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="specDoct">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin></TextField>
+      <Label text="entrer le nouveau NumTel">
+         <VBox.margin>
+            <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="numTelDoct">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin></TextField>
+      <Label prefHeight="18.0" prefWidth="193.0" text="entrer la nouvelle  adresse mail">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin></Label>
+      <TextField fx:id="mailDoct">
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" />
+         </VBox.margin></TextField>
+      <Label prefHeight="18.0" prefWidth="163.0" text="entrer le nouvel id">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="idDoct" prefHeight="6.0" prefWidth="25.0">
+         <VBox.margin>
+            <Insets left="10.0" />
+         </VBox.margin>
+      </TextField>
+      <HBox prefHeight="57.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="confirmer" mnemonicParsing="false" onAction="#confirmer" text="confirmer">
+               <HBox.margin>
+                  <Insets left="50.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#annuler" text="Annuler">
+               <HBox.margin>
+                  <Insets left="30.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
